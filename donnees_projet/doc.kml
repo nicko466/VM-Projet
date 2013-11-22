@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>StationsAirRhoneAlpes</name>
+	<open>1</open>
+	<Document>
+		<name>Air Rhone Alpes - Sites 20</name>
+		<Style id="site17_strate1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site50">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_strate1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_nouveau">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_nouveau">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_ferme">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_strate1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_nouveau">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_nouveau">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_strate1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_nouveau">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_ferme">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_ferme">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_ferme">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_nouveau">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_strate1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_ferme">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_ferme">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_strate1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_ferme">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_strate1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_nouveau">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/57&quot;,&quot;datedebut&quot;:&quot;2000-10-08,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:57,&quot;coordonnees&quot;:[767767,5016309],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;A43 Vallée de la Maurienne&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>A43 Vallée de la Maurienne, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>6.412234946966569,45.24922510883781,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/51&quot;,&quot;datedebut&quot;:&quot;1998-12-11,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:51,&quot;coordonnees&quot;:[626798,5043499],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;A47 Vallée du Gier&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>A47 Vallée du Gier, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.62393982003649,45.5334257817182,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/38&quot;,&quot;datedebut&quot;:&quot;2005-06-05,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:38,&quot;coordonnees&quot;:[641371,5023777],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;A7 Nord-Isere&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>A7 Nord-Isere, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.80482348932177,45.3531870975725,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/117&quot;,&quot;datedebut&quot;:&quot;1999-02-10,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:117,&quot;coordonnees&quot;:[641492,5064555],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;A7 Sud lyonnais&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>A7 Sud lyonnais, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.81815571433945,45.7200242793103,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/89&quot;,&quot;datedebut&quot;:&quot;2001-12-12,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:89,&quot;coordonnees&quot;:[649084,4979020],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;A7 Valence&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>A7 Valence, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.88987983630007,44.9489220179746,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/81&quot;,&quot;datedebut&quot;:&quot;2001-12-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:81,&quot;coordonnees&quot;:[798224,5090875],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Chamonix Route Blanche&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Chamonix Route Blanche, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>6.84503872573962,45.9066550170348,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/97&quot;,&quot;datedebut&quot;:&quot;2006-12-10,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:97,&quot;coordonnees&quot;:[713707,5006629],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Grenoble Grands Boulevards&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Grenoble Grands Boulevards, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>5.72005587713513,45.1806892548478,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/102&quot;,&quot;datedebut&quot;:&quot;1999-10-05,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:102,&quot;coordonnees&quot;:[712510,5004106],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Grenoble Rocade Sud&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Grenoble Rocade Sud, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>5.70376326282844,45.15836513041889,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295582&quot;,&quot;datedebut&quot;:&quot;2009-09-17,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:295582,&quot;coordonnees&quot;:[642820,5070410],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon - Tunnel Croix-Rousse - Sortie Rhône&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon - Tunnel Croix-Rousse - Sortie Rhône, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.83693894311449,45.77242369747901,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/99&quot;,&quot;datedebut&quot;:&quot;2007-06-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:99,&quot;coordonnees&quot;:[647540,5065612],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon Periphérique Est&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon Periphérique Est, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.89615150786641,45.7282699629542,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/108&quot;,&quot;datedebut&quot;:&quot;1985-01-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:108,&quot;coordonnees&quot;:[643886,5069959],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon Rue Garibaldi&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon Rue Garibaldi, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.85050832947978,45.7681452919593,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/113&quot;,&quot;datedebut&quot;:&quot;1985-01-02,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:113,&quot;coordonnees&quot;:[640219,5070867],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon Rue Marietton&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon Rue Marietton, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.80363456636028,45.77706782579369,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/50&quot;,&quot;datedebut&quot;:&quot;2000-12-27,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:50,&quot;coordonnees&quot;:[610467,5030718],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;N88 Saint-Etienne&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>N88 Saint-Etienne, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.41197682165136,45.4211987170653,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/122&quot;,&quot;datedebut&quot;:&quot;1993-02-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;20&quot;,&quot;idObjet&quot;:122,&quot;coordonnees&quot;:[646688,5068937],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Villeurbanne Place Grandclément&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Trafic&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;sitetraffic&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Villeurbanne Place Grandclément, Trafic</name>
+			<styleUrl>#site20</styleUrl>
+			<Point>
+				<coordinates>4.8862151705819,45.7583623512876,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>Air Rhone Alpes - Sites 19</name>
+		<Style id="site13_ferme0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_strate10">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site130">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_strate10">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site140">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_ferme0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site500">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site170">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_strate10">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_nouveau0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_nouveau0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site180">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_nouveau0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site200">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_nouveau0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_nouveau0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_strate10">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_strate10">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_nouveau0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site190">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_strate10">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_nouveau0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_ferme0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_ferme0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site210">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_strate10">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_ferme0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_ferme0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_ferme0">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/158&quot;,&quot;datedebut&quot;:&quot;1992-12-04,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;19&quot;,&quot;idObjet&quot;:158,&quot;coordonnees&quot;:[638124,5034968],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Les Roches de Condrieu ZI&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Industrielle&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteIndustriel&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Les Roches de Condrieu ZI, Industrielle</name>
+			<styleUrl>#site190</styleUrl>
+			<Point>
+				<coordinates>4.76652658489204,45.4545198995453,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/100&quot;,&quot;datedebut&quot;:&quot;2007-04-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;19&quot;,&quot;idObjet&quot;:100,&quot;coordonnees&quot;:[632646,4948321],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Saint-Bauzile ZI&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Industrielle&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteIndustriel&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Saint-Bauzile ZI, Industrielle</name>
+			<styleUrl>#site190</styleUrl>
+			<Point>
+				<coordinates>4.67358606248774,44.6759396172774,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/84&quot;,&quot;datedebut&quot;:&quot;2002-10-31,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;19&quot;,&quot;idObjet&quot;:84,&quot;coordonnees&quot;:[718133,5105956],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Saint-Germain-Sur-Rhône&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Industrielle&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteIndustriel&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Saint-Germain-Sur-Rhône, Industrielle</name>
+			<styleUrl>#site190</styleUrl>
+			<Point>
+				<coordinates>5.82079369783828,46.0723012912004,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/130&quot;,&quot;datedebut&quot;:&quot;1985-01-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;19&quot;,&quot;idObjet&quot;:130,&quot;coordonnees&quot;:[643790,5058367],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Sud lyonnais / Feyzin ZI&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Industrielle&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteIndustriel&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Sud lyonnais / Feyzin ZI, Industrielle</name>
+			<styleUrl>#site190</styleUrl>
+			<Point>
+				<coordinates>4.84583661333202,45.66388253573889,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/135&quot;,&quot;datedebut&quot;:&quot;1985-01-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;19&quot;,&quot;idObjet&quot;:135,&quot;coordonnees&quot;:[642442,5062299],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;sud lyonnais / Pierre-Bénite&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Industrielle&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteIndustriel&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>sud lyonnais / Pierre-Bénite, Industrielle</name>
+			<styleUrl>#site190</styleUrl>
+			<Point>
+				<coordinates>4.8296942915285,45.6995339847676,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/132&quot;,&quot;datedebut&quot;:&quot;1985-01-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;19&quot;,&quot;idObjet&quot;:132,&quot;coordonnees&quot;:[645129,5063274],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;sud lyonnais / Saint-Fons&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Industrielle&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteIndustriel&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>sud lyonnais / Saint-Fons, Industrielle</name>
+			<styleUrl>#site190</styleUrl>
+			<Point>
+				<coordinates>4.86448268822899,45.7077472529647,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/154&quot;,&quot;datedebut&quot;:&quot;2004-04-10,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;19&quot;,&quot;idObjet&quot;:154,&quot;coordonnees&quot;:[646630,5062879],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;sud lyonnais / Vénissieux&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Industrielle&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteIndustriel&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>sud lyonnais / Vénissieux, Industrielle</name>
+			<styleUrl>#site190</styleUrl>
+			<Point>
+				<coordinates>4.88363628979372,45.70387760355301,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>Air Rhone Alpes - Sites 17;18</name>
+		<Style id="site19_ferme1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_nouveau1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_strate11">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site171">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_nouveau1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_ferme1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_strate11">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_strate11">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_ferme1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site131">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_strate11">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site501">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_ferme1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_strate11">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site141">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_nouveau1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site181">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_nouveau1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site201">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_nouveau1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_nouveau1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site191">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_strate11">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_nouveau1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_ferme1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site211">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_ferme1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_strate11">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_ferme1">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295608&quot;,&quot;datedebut&quot;:&quot;2008-02-08,16-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;17&quot;,&quot;idObjet&quot;:295608,&quot;coordonnees&quot;:[801656,5087912],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Aiguille du midi&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale régionale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruraleregionale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Aiguille du midi, Rurale régionale</name>
+			<styleUrl>#site171</styleUrl>
+			<Point>
+				<coordinates>6.887325864940191,45.8785517934977,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/95&quot;,&quot;datedebut&quot;:&quot;2005-04-05,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;17&quot;,&quot;idObjet&quot;:95,&quot;coordonnees&quot;:[602669,4917081],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Ardèche méridionale&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale régionale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruraleregionale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Ardèche méridionale, Rurale régionale</name>
+			<styleUrl>#site171</styleUrl>
+			<Point>
+				<coordinates>4.28925775253339,44.3996845866694,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/41&quot;,&quot;datedebut&quot;:&quot;2005-06-15,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;17&quot;,&quot;idObjet&quot;:41,&quot;coordonnees&quot;:[624418,5064567],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Coteaux du lyonnais&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale régionale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruraleregionale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Coteaux du lyonnais, Rurale régionale</name>
+			<styleUrl>#site171</styleUrl>
+			<Point>
+				<coordinates>4.59885202662403,45.7234126806689,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/91&quot;,&quot;datedebut&quot;:&quot;2002-10-12,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;18&quot;,&quot;idObjet&quot;:91,&quot;coordonnees&quot;:[666082,4931844],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Drôme provençale&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale nationale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruralenationale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Drôme provençale, Rurale nationale</name>
+			<styleUrl>#site181</styleUrl>
+			<Point>
+				<coordinates>5.08987093844395,44.5207447718155,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/75&quot;,&quot;datedebut&quot;:&quot;1997-01-15,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;18&quot;,&quot;idObjet&quot;:75,&quot;coordonnees&quot;:[773459,4988597],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Ecrins&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale nationale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruralenationale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Ecrins, Rurale nationale</name>
+			<styleUrl>#site181</styleUrl>
+			<Point>
+				<coordinates>6.46949318802836,44.9980407148915,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/149&quot;,&quot;datedebut&quot;:&quot;1996-06-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;17&quot;,&quot;idObjet&quot;:149,&quot;coordonnees&quot;:[613572,5090811],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Haut-Beaujolais&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale régionale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruraleregionale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Haut-Beaujolais, Rurale régionale</name>
+			<styleUrl>#site171</styleUrl>
+			<Point>
+				<coordinates>4.4657108630111,45.9614121189385,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/59&quot;,&quot;datedebut&quot;:&quot;1996-02-08,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;17&quot;,&quot;idObjet&quot;:59,&quot;coordonnees&quot;:[696971,5033539],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Pays voironnais&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale régionale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruraleregionale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Pays voironnais, Rurale régionale</name>
+			<styleUrl>#site171</styleUrl>
+			<Point>
+				<coordinates>5.51795159107292,45.4275577237052,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/92&quot;,&quot;datedebut&quot;:&quot;2004-06-10,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;17&quot;,&quot;idObjet&quot;:92,&quot;coordonnees&quot;:[670164,5029448],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Plaine de Bièvre&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale régionale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruraleregionale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Plaine de Bièvre, Rurale régionale</name>
+			<styleUrl>#site171</styleUrl>
+			<Point>
+				<coordinates>5.17412289696536,45.39779900185239,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295630&quot;,&quot;datedebut&quot;:&quot;2012-03-15,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;18&quot;,&quot;idObjet&quot;:295630,&quot;coordonnees&quot;:[680984,4937638],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Saint Nazaire Le Desert&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Rurale nationale&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteruralenationale&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Saint Nazaire Le Desert, Rurale nationale</name>
+			<styleUrl>#site181</styleUrl>
+			<Point>
+				<coordinates>5.27928070135128,44.5692808051326,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>Air Rhone Alpes - Sites 14</name>
+		<Style id="site17_nouveau2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_ferme2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_strate12">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_strate12">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_strate12">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_ferme2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site132">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_ferme2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site142">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_ferme2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_nouveau2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site212">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_nouveau2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_ferme2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_strate12">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_ferme2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_strate12">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site502">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_nouveau2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site202">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_nouveau2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_strate12">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site172">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site192">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_strate12">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_nouveau2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_nouveau2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_ferme2">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site182">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/78&quot;,&quot;datedebut&quot;:&quot;1998-04-07,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:78,&quot;coordonnees&quot;:[743160,5089614],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Annecy Novel&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Annecy Novel, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>6.13565018356012,45.91699878628519,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/54&quot;,&quot;datedebut&quot;:&quot;1997-07-04,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:54,&quot;coordonnees&quot;:[727634,5053394],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Chambery le Haut&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Chambery le Haut, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>5.91867119608319,45.5967351736213,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/165&quot;,&quot;datedebut&quot;:&quot;2008-01-09,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:165,&quot;coordonnees&quot;:[726067,5018094],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Est grenoblois / Grésivaudan&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Est grenoblois / Grésivaudan, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>5.88238909336677,45.27990829713061,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/146&quot;,&quot;datedebut&quot;:&quot;1999-01-26,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:146,&quot;coordonnees&quot;:[654097,5066166],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Est lyonnais / Genas&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Est lyonnais / Genas, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.98054707974875,45.7318241053201,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/148&quot;,&quot;datedebut&quot;:&quot;2001-12-15,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:148,&quot;coordonnees&quot;:[661173,5068758],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Est lyonnais / Saint Exupéry&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Est lyonnais / Saint Exupéry, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>5.07229613603694,45.7535264448126,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295581&quot;,&quot;datedebut&quot;:&quot;2010-02-21,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:295581,&quot;coordonnees&quot;:[611750,5037447],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Est stéphanois / La Talaudière&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Est stéphanois / La Talaudière, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.42990042558508,45.48154505740041,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/39&quot;,&quot;datedebut&quot;:&quot;2005-07-29,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:39,&quot;coordonnees&quot;:[651780,5076270],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Nord lyonnais / Côtière de l\u0027Ain&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Nord lyonnais / Côtière de l&apos;Ain, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.95395835530554,45.82322638305969,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/43&quot;,&quot;datedebut&quot;:&quot;1993-07-20,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:43,&quot;coordonnees&quot;:[608643,5035745],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Saint-Etienne Nord&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Saint-Etienne Nord, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.38978008713882,45.4667202804224,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/71&quot;,&quot;datedebut&quot;:&quot;1985-01-04,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:71,&quot;coordonnees&quot;:[714762,4995415],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Sud grenoblois / Champ sur Drac&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Sud grenoblois / Champ sur Drac, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>5.72865303552491,45.0795384574348,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/166&quot;,&quot;datedebut&quot;:&quot;2008-01-16,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:166,&quot;coordonnees&quot;:[710767,4992884],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Sud grenoblois / Vif&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Sud grenoblois / Vif, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>5.67688745206287,45.0579808159387,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/138&quot;,&quot;datedebut&quot;:&quot;1985-10-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:138,&quot;coordonnees&quot;:[640572,5051400],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Sud lyonnais / Ternay&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Sud lyonnais / Ternay, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.80253684299128,45.6018641366461,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/160&quot;,&quot;datedebut&quot;:&quot;2003-09-04,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:160,&quot;coordonnees&quot;:[638950,5019994],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Sud roussillonnais / Sablons&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Sud roussillonnais / Sablons, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.77286790755746,45.31963533010951,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/87&quot;,&quot;datedebut&quot;:&quot;1999-11-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:87,&quot;coordonnees&quot;:[648214,4970255],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Valence Sud&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Valence Sud, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.87628877587367,44.8702433446846,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295587&quot;,&quot;datedebut&quot;:&quot;2010-09-29,09-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;14&quot;,&quot;idObjet&quot;:295587,&quot;coordonnees&quot;:[639236,5088546],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Villefranche périurbain&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Périurbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteperiurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Villefranche périurbain, Périurbain</name>
+			<styleUrl>#site142</styleUrl>
+			<Point>
+				<coordinates>4.79611123685963,45.9363095051624,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>Air Rhone Alpes - Sites 13</name>
+		<Style id="site203">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_nouveau3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_ferme3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_nouveau3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_ferme3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_nouveau3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site193">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_strate13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_nouveau3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site183">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site19_ferme3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/5_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_strate13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site133">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_strate13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_ferme3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_ferme3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_nouveau3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site213">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_nouveau3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site13_strate13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/1_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site173">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site143">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_nouveau3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_nouveau.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site21_ferme3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site14_strate13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/2_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site17_strate13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/3_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site20_ferme3">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/6_ferme.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site18_strate13">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/4_strate1.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="site503">
+			<IconStyle>
+				<Icon>
+					<href>http://www.air-rhonealpes.fr/site/app_themes/shared/Images/map/Site/21.gif</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/76&quot;,&quot;datedebut&quot;:&quot;1999-11-09,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:76,&quot;coordonnees&quot;:[763993,5063540],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Albertville&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Albertville, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.38959171883861,45.6750465100105,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/77&quot;,&quot;datedebut&quot;:&quot;1998-05-13,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:77,&quot;coordonnees&quot;:[741919,5087149],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Annecy Loverchy&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Annecy Loverchy, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.11842909851672,45.89528328811411,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/79&quot;,&quot;datedebut&quot;:&quot;1998-05-07,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:79,&quot;coordonnees&quot;:[750035,5120907],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Annemasse&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Annemasse, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.240589601116289,46.1957290947688,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/83&quot;,&quot;datedebut&quot;:&quot;2003-09-08,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:83,&quot;coordonnees&quot;:[671606,5120039],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Bourg en Bresse&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Bourg en Bresse, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.2247472394133,46.2122174290729,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/94&quot;,&quot;datedebut&quot;:&quot;2004-07-15,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:94,&quot;coordonnees&quot;:[677075,5053034],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Bourgoin-Jallieu&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Bourgoin-Jallieu, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.27087101972819,45.6082187296631,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/53&quot;,&quot;datedebut&quot;:&quot;1998-03-30,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:53,&quot;coordonnees&quot;:[728526,5049844],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Chambéry Pasteur&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Chambéry Pasteur, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.92843230226187,45.5645308100118,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/58&quot;,&quot;datedebut&quot;:&quot;1997-11-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:58,&quot;coordonnees&quot;:[800068,5092733],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Chamonix&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Chamonix, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.8699202929453,45.9225379151333,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/67&quot;,&quot;datedebut&quot;:&quot;1985-01-05,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:67,&quot;coordonnees&quot;:[713451,5002389],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Echirolles&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Echirolles, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.71498853712662,45.1426426851138,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/147&quot;,&quot;datedebut&quot;:&quot;2004-01-31,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:147,&quot;coordonnees&quot;:[649643,5071291],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Est lyonnais / Vaulx en Velin&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Est lyonnais / Vaulx en Velin, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.92491967866081,45.7789045530385,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/48&quot;,&quot;datedebut&quot;:&quot;1998-12-08,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:48,&quot;coordonnees&quot;:[618414,5036878],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Est stéphanois / Saint-Chamond&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Est stéphanois / Saint-Chamond, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.51500342632349,45.4753261224252,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/74&quot;,&quot;datedebut&quot;:&quot;1999-12-29,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:74,&quot;coordonnees&quot;:[711071,5007625],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Fontaine les Balmes&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Fontaine les Balmes, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.68696377586608,45.1904388339931,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/80&quot;,&quot;datedebut&quot;:&quot;1998-04-10,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:80,&quot;coordonnees&quot;:[748072,5120618],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Gaillard&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Gaillard, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.21503726028186,46.1938501405666,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/103&quot;,&quot;datedebut&quot;:&quot;2001-01-30,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:103,&quot;coordonnees&quot;:[715003,5004614],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Grenoble les Frenes&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Grenoble les Frenes, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.735664376110049,45.1621777583188,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295586&quot;,&quot;datedebut&quot;:&quot;2009-12-19,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:295586,&quot;coordonnees&quot;:[645900,5065563],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon 8ème&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon 8ème, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.87507129389129,45.7281769490819,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/98&quot;,&quot;datedebut&quot;:&quot;2007-02-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:98,&quot;coordonnees&quot;:[644201,5068809],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon Centre&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon Centre, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.85421451915406,45.75773423432051,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/120&quot;,&quot;datedebut&quot;:&quot;1985-01-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:120,&quot;coordonnees&quot;:[642359,5066272],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon Gerland&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon Gerland, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.82979528187484,45.7352928986244,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/109&quot;,&quot;datedebut&quot;:&quot;1985-01-22,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:109,&quot;coordonnees&quot;:[641572,5068480],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Lyon Saint-Just&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Lyon Saint-Just, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.82033053475479,45.7553180095077,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/96&quot;,&quot;datedebut&quot;:&quot;2006-06-30,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:96,&quot;coordonnees&quot;:[787945,5092260],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Passy&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Passy, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.71362763119907,45.923473841162,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/45&quot;,&quot;datedebut&quot;:&quot;1995-07-27,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:45,&quot;coordonnees&quot;:[582448,5097642],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Roanne&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Roanne, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.06530044349066,46.0273283984564,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295604&quot;,&quot;datedebut&quot;:&quot;2010-11-09,16-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:295604,&quot;coordonnees&quot;:[660990,4989676],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Romans Sur Isère&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Romans Sur Isère, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.04412185314194,45.04218883466,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/157&quot;,&quot;datedebut&quot;:&quot;1992-12-03,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:157,&quot;coordonnees&quot;:[641360,5025403],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Roussillon&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Roussillon, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.80514840598679,45.3678182296236,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/46&quot;,&quot;datedebut&quot;:&quot;1996-10-02,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:46,&quot;coordonnees&quot;:[609174,5030572],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Saint-Etienne Sud&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Saint-Etienne Sud, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.39542243085814,45.420088006166,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/56&quot;,&quot;datedebut&quot;:&quot;1997-11-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:56,&quot;coordonnees&quot;:[762734,5018931],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Saint-Jean de Maurienne&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Saint-Jean de Maurienne, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.34959572839894,45.2746837585155,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/101&quot;,&quot;datedebut&quot;:&quot;1998-08-25,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:101,&quot;coordonnees&quot;:[716306,5006971],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Saint-Martin d\u0027Heres&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Saint-Martin d&apos;Heres, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.75324610496432,45.1829719417546,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/82&quot;,&quot;datedebut&quot;:&quot;2004-01-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:82,&quot;coordonnees&quot;:[767994,5141560],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Thonon les Bains&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Thonon les Bains, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>6.4846858075359,46.3744308452326,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/88&quot;,&quot;datedebut&quot;:&quot;2000-12-01,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:88,&quot;coordonnees&quot;:[649408,4977315],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Valence urbain centre&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Valence urbain centre, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.89348035688426,44.9335139623021,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/159&quot;,&quot;datedebut&quot;:&quot;2003-08-08,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:159,&quot;coordonnees&quot;:[646452,5043099],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Vienne Centre&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Vienne Centre, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.87540811064197,45.525972455909,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/40&quot;,&quot;datedebut&quot;:&quot;2006-01-30,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:40,&quot;coordonnees&quot;:[633160,5093978],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Villefranche Village&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Villefranche Village, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>4.71928008509018,45.9863824295899,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="{&quot;tipurl&quot;:&quot;http://www.air-rhonealpes.fr/site/zone/voir/295606&quot;,&quot;datedebut&quot;:&quot;2010-11-25,00-00&quot;,&quot;styleCarte&quot;:&quot;default&quot;,&quot;infoTipStyle&quot;:null,&quot;estRecente&quot;:false,&quot;estFerme&quot;:false,&quot;idZoneType&quot;:&quot;13&quot;,&quot;idObjet&quot;:295606,&quot;coordonnees&quot;:[702803,5026231],&quot;zoom&quot;:0,&quot;libelle&quot;:&quot;Voiron Urbain&quot;,&quot;systeme&quot;:&quot;UTM31&quot;,&quot;typeLieu&quot;:&quot;Urbain&quot;,&quot;displayMapTip&quot;:true,&quot;objectTypeName&quot;:&quot;siteurbain&quot;,&quot;valide&quot;:true,&quot;ExtensionData&quot;:null,&quot;cleCryptage&quot;:&quot;&quot;,&quot;printable&quot;:false}">
+			<name>Voiron Urbain, Urbain</name>
+			<styleUrl>#site133</styleUrl>
+			<Point>
+				<coordinates>5.58942375643129,45.3601764836249,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>
