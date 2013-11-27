@@ -1,0 +1,16 @@
+Gestion des cartes couleurs Colormap
+======================================
+valeur x = couleur (r,g,b)
+RGB <-> HSV heu saturation value
+Calcule Xmin et Xmax
+
+X0 = Xmin, X1,X2 ... Xn = Xmax
+r0	r1		rn
+g0	g1		gn
+b0	b1		bn
+
+x € [xi , xi+1] => interpolation
+de 	ri	ri+1
+	gi	gi+1
+	bi	bi+1
+
