@@ -1,0 +1,11 @@
+Projet VM
+
+Recup 2 tableur de données pollution dans l'isere.
+Recup données
+Les interpoler avec Shepard.
+-> Courbes iso valeurs et cartes de couleurs sur ces données
+
+-> Afficher sur google earth - > KML
+
+java -> javac pour le KML
+python -> simpleKML
