@@ -1,5 +1,8 @@
 import exceptions
 
+# try to get a integer from a string, if not possible a float or then the same string
+# @param s: (string)
+# @return integer float or string
 def try2getInt(s):
     try:
         return int(s)
@@ -10,11 +13,10 @@ def try2getInt(s):
             return s
 
 
-
-def filtrer(src):
-    """Fonction de traitement.
-    Lit et traite ligne par ligne le fichier source (src). 
-    """
+# take a file and parse data in a matrice
+# @param  src : the file
+# @return a matrice [[]]
+def parseData(src):
     mat = []
     for line in src:
 	if line != "\n":
@@ -29,4 +31,4 @@ def filtrer(src):
 
 
 source = open("dataVrac.txt", "r")
-print "result", filtrer(source)
+print "result", parseData(source)
