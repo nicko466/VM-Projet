@@ -93,7 +93,7 @@ def calculOmega(tabDist,i):
     return numerateur/denominateur
 
 
-def shepard(point,dataTab):
+def shepard(point, dataTab):
     tabDist = creerTabDistance(dataTab, point) 
     print "tabDist",tabDist
     
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     dataTab = lectureData("data.txt")
     print "dataTab",dataTab
     tabPointGenere= []
-    for i in range (1,10):
+    for i in range (1,10):	a
         x =5.2+ (i/10.0)
         y =45+ (i/12.0)
         
