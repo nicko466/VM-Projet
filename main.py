@@ -5,38 +5,18 @@ from exportData import *
 from color import *
 from shepard import *
 
-
+#===============================================================================
+# une station = point + nom
+#===============================================================================
 class Station : 
   def __init__(self, pt, name):
     self.pt = pt
     self.name = name
     
   def __repr__(self):
-    return " - " + self.name + " {x: " + str((self.pt.x)) + " y:" + str((self.pt.y)) + " v:" + str (int(self.pt.val)) + "}"
+    return " - " + self.name + " {x: " + str((self.pt.x)) + " y:" + str((self.pt.y)) + """ 
+    v:""" + str (int(self.pt.val)) + "}"
 
-
-################# On crée nos XI ####################
-# x1Part= 0.20
-# xmin = XI("rgb",20, 20, 20, min([min(l) for l in matrixData]))
-# xmax = XI("rgb",200, 0, 200, max([max(l) for l in matrixData]))
-# x1 = XI("rgb",50, 50, 0, (xmax.value-xmin.value)* (x1Part) + xmin.value)
-# x2 = XI("rgb",0, 100, 100, (xmax.value-xmin.value)* (x1Part) + x1.value)
-# x3 = XI("rgb",150, 150, 150, (xmax.value-xmin.value)* (x1Part) + x2.value)
-
-# ech = []
-# ech.append(xmin)
-# ech.append(x1)
-# ech.append(x2)
-# ech.append(x3)
-# ech.append(xmax)
-######################################################
-
-# tabRGB = generateRGB(matrixData, ech)
-# matrixRgb2Image(tabRGB,"image")
-
-
-# dataTab = lectureData("data.txt")
-# print "dataTab",dataTab
 
 #===============================================================================
 # Crée une matrice de station depuis les données CSV
@@ -54,7 +34,10 @@ def makeStationsData(matriceRaw):
 			tabPoint.append(station)
 		matPoint.append(tabPoint)
 	return matPoint
-					
+
+#===============================================================================
+# Selectionne le point min , max des stations pour trovuer la zone à étudier
+#===============================================================================
 def selectZoneReference(matriceStation):
     minX = matriceStation[0][0].pt.x
     minY = matriceStation[0][0].pt.y
@@ -66,43 +49,94 @@ def selectZoneReference(matriceStation):
         minY = min (matriceStation[i][0].pt.y, minY)
         maxX = max (matriceStation[i][0].pt.x, maxX)
         maxY = max (matriceStation[i][0].pt.y, maxY)
-        # print "xmin", minX , "xmax", maxX, "ymin", minY , "ymax", maxY
+
     ptMin = Point(minX , minY, 0)
     ptMax = Point(maxX , maxY, 0)
-    return (ptMin, ptMax )
+    return (ptMin, ptMax)
     
+def minMatrixPoint(matrix):
+    mini = matrix[0][0]
+    for i in matrix:
+        for j in i:
+            if mini >j.val:
+                mini =j.val
+    return mini
+
+def maxMatrixPoint(matrix):
+    maxi = 0
+    for i in matrix:
+        for j in i:
+            if maxi < j.val:
+                maxi = j.val
+    return maxi
 
 #===============================================================================
 # Shepard a un instant t
+#
+# @param stationMatrice: ma matrice de donnée {station x t}
+# @param t: l'indice du temps selectionné
+# @param ptMax: ldes stations
+# @param ptMin: des stations
+# @param pas: float du pas de précision
+# @return une matrice de tout les points
 #===============================================================================
 def shepardOneTime(stationMatrice, t, ptMin, ptMax, pas):
-    tabPointGenere = []
+    matPointGenere = []
     tabData = []
-    # stations vers points
+    # Stations vers points
     for stat in stationMatrice :
         tabData.append(stat[t].pt)
         
     i = ptMin.x
     while i < ptMax.x:
         j = ptMin.y
+        tabPoint = []
         while j < ptMax.y:
             pt = Point(i, j, 0)
             pt.val = shepard(pt, tabData)
-            tabPointGenere.append(pt)
+            tabPoint.append(pt)
             j = j + pas
         i = i + pas
-    print  tabPointGenere
+        matPointGenere.append(tabPoint)
+    print "taille", len(matPointGenere),len(matPointGenere[0]), "from", len(stationMatrice), len(stationMatrice[0])  
+    return matPointGenere
 
-
-# pt =Point(x,y,0)
-# pt.val=shepard(pt,dataTab)
-# tabPointGenere.append(pt)       
+################# Main ####################
+# On recup notre data     
+print "Récupération des données..."
 data = getMatriceData()
+print "Analyse"
+# data vers matrice de station
 matStation = makeStationsData(data)
-# print matStation[0][0].pt
+# on definit la zone de visualisation
 (ptMin, ptMax) = selectZoneReference(matStation)
-print (ptMin, ptMax)
-shepardOneTime(matStation, 0, ptMin, ptMax, 0.1)
+# On determine la valeur des points de la zone
+print 'ptMin, ptMax',ptMin, ptMax
+pas = 0.1
+matrixData = shepardOneTime(matStation, 0, ptMin, ptMax, 0.1)
+mini = minMatrixPoint(matrixData)
+maxi = maxMatrixPoint(matrixData)
+
+################# On crée nos XI ####################
+x1Part = 0.20
+xmin = XI("rgb", 20, 20, 20, mini)
+xmax = XI("rgb", 200, 0, 200, maxi)
+x1 = XI("rgb", 50, 50, 0, (xmax.value - xmin.value) * (x1Part) + xmin.value)
+x2 = XI("rgb", 0, 100, 100, (xmax.value - xmin.value) * (x1Part) + x1.value)
+x3 = XI("rgb", 150, 150, 150, (xmax.value - xmin.value) * (x1Part) + x2.value)
+
+ech = []
+ech.append(xmin)
+ech.append(x1)
+ech.append(x2)
+ech.append(x3)
+ech.append(xmax)
+######################################################
+print "matrixData",len(matrixData),len(matrixData[0])
+matRGB = generateRgbFromPointMatrix(matrixData, ech)
+print "img",len(matRGB),len(matRGB[0])
+matrixRgb2Image(matRGB, "image")
+
 
 
 
