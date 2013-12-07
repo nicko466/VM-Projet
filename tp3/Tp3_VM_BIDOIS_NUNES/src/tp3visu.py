@@ -108,7 +108,7 @@ if __name__ == "__main__":
     dataTab = lectureData("data.txt")
     print "dataTab",dataTab
     tabPointGenere= []
-    for i in range (1,10):	a
+    for i in range (1,10):	
         x =5.2+ (i/10.0)
         y =45+ (i/12.0)
         

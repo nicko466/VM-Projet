@@ -2,7 +2,8 @@ import math
 import exceptions
 
 muI= 2 #ou 2
-    
+
+
 class Point : 
   def __init__(self, x, y,val):
     self.x = float(x)
