@@ -49,15 +49,12 @@ def calculOmega(tabDist,i):
    # print "denominateur",denominateur, "numerateur",numerateur, "res:",numerateur/denominateur
     return numerateur/denominateur
 
-
 def shepard(point, dataTab):
     tabDist = creerTabDistance(dataTab, point) 
-    print "tabDist",tabDist
     
     res=0
     for i in range(0,len(dataTab)):
         omega= calculOmega(tabDist,i)
-     #   print "omega: ", omega 
         res+= dataTab[i].val * (omega)
     return res
     
