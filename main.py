@@ -55,7 +55,7 @@ def selectZoneReference(matriceStation):
     return (ptMin, ptMax)
     
 def minMatrixPoint(matrix):
-    mini = matrix[0][0]
+    mini = matrix[0][0].val
     for i in matrix:
         for j in i:
             if mini >j.val:
@@ -88,6 +88,7 @@ def shepardOneTime(stationMatrice, t, ptMin, ptMax, pas):
         tabData.append(stat[t].pt)
         
     i = ptMin.x
+    print tabData;
     while i < ptMax.x:
         j = ptMin.y
         tabPoint = []
@@ -113,7 +114,7 @@ matStation = makeStationsData(data)
 # On determine la valeur des points de la zone
 print 'ptMin, ptMax',ptMin, ptMax
 pas = 0.1
-matrixData = shepardOneTime(matStation, 0, ptMin, ptMax, 0.1)
+matrixData = shepardOneTime(matStation, 0, ptMin, ptMax, 0.01)
 mini = minMatrixPoint(matrixData)
 maxi = maxMatrixPoint(matrixData)
 
