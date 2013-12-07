@@ -4,6 +4,7 @@
 from exportData import *
 from color import *
 from shepard import *
+from afficherKml import *
 
 #===============================================================================
 # une station = point + nom
@@ -114,7 +115,7 @@ matStation = makeStationsData(data)
 # On determine la valeur des points de la zone
 print 'ptMin, ptMax',ptMin, ptMax
 pas = 0.1
-matrixData = shepardOneTime(matStation, 0, ptMin, ptMax, 0.01)
+matrixData = shepardOneTime(matStation, 0, ptMin, ptMax, pas)
 mini = minMatrixPoint(matrixData)
 maxi = maxMatrixPoint(matrixData)
 
@@ -122,9 +123,10 @@ maxi = maxMatrixPoint(matrixData)
 x1Part = 0.20
 xmin = XI("rgb", 20, 20, 20, mini)
 xmax = XI("rgb", 200, 0, 200, maxi)
-x1 = XI("rgb", 50, 50, 0, (xmax.value - xmin.value) * (x1Part) + xmin.value)
+x1 = XI("rgb", 100, 50, 0, (xmax.value - xmin.value) * (x1Part) + xmin.value)
 x2 = XI("rgb", 0, 100, 100, (xmax.value - xmin.value) * (x1Part) + x1.value)
 x3 = XI("rgb", 150, 150, 150, (xmax.value - xmin.value) * (x1Part) + x2.value)
+
 
 ech = []
 ech.append(xmin)
@@ -137,7 +139,8 @@ print "matrixData",len(matrixData),len(matrixData[0])
 matRGB = generateRgbFromPointMatrix(matrixData, ech)
 print "img",len(matRGB),len(matRGB[0])
 matrixRgb2Image(matRGB, "image")
-
+#Permet de créer un fichier kml 
+createKML("image.png",ptMin.x,ptMax.x,ptMin.y,ptMax.y)
 
 
 
