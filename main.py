@@ -184,7 +184,7 @@ print 'ptMin, ptMax', ptMin, ptMax
 
 
 if tSelect == -1 :
-    for tSelect in range (0, len(matStation)):
+    for tSelect in range (0, len(matStation[0])):
         analyseOneTime(matStation, tSelect, ptMin, ptMax, pas)
 else:
     analyseOneTime(matStation, tSelect, ptMin, ptMax, pas)
