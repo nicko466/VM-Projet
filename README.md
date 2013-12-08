@@ -16,4 +16,9 @@ launch
 
 python main.py [pas] [tselect]
 
-ex: python main.py 0.01 1
+ex: 
+Execute one time (1):
+python main.py 0.01 1
+
+Execute for all time:
+python main.py 0.01 all
