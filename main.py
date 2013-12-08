@@ -54,7 +54,10 @@ def selectZoneReference(matriceStation):
     ptMin = Point(minX , minY, 0)
     ptMax = Point(maxX , maxY, 0)
     return (ptMin, ptMax)
-    
+
+  #=============================================================================
+  # retourne le point minimum de la matrice de point
+  #=============================================================================
 def minMatrixPoint(matrix):
     mini = matrix[0][0].val
     for i in matrix:
@@ -63,6 +66,9 @@ def minMatrixPoint(matrix):
                 mini =j.val
     return mini
 
+#===============================================================================
+# retourne le point maximum de la matrice de point
+#===============================================================================
 def maxMatrixPoint(matrix):
     maxi = 0
     for i in matrix:
@@ -121,10 +127,10 @@ maxi = maxMatrixPoint(matrixData)
 
 ################# On crée nos XI ####################
 x1Part = 0.20
-xmin = XI("rgb", 20, 20, 20, mini)
-xmax = XI("rgb", 200, 0, 200, maxi)
+xmin = XI("rgb", 200, 200, 200, mini)
+xmax = XI("rgb", 50, 0, 200, maxi)
 x1 = XI("rgb", 100, 50, 0, (xmax.value - xmin.value) * (x1Part) + xmin.value)
-x2 = XI("rgb", 0, 100, 100, (xmax.value - xmin.value) * (x1Part) + x1.value)
+x2 = XI("rgb", 0, 100, 20, (xmax.value - xmin.value) * (x1Part) + x1.value)
 x3 = XI("rgb", 150, 150, 150, (xmax.value - xmin.value) * (x1Part) + x2.value)
 
 
