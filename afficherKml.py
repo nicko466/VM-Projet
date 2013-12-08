@@ -1,6 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+
 from simplekml import Kml
-
-
 
 #===============================================================================
 # Fonction createKml qui "colle" l image (dont le chemin est pathimage) avec les coordonnees

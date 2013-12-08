@@ -5,6 +5,7 @@ from exportData import *
 from color import *
 from shepard import *
 from afficherKml import *
+import sys
 
 #===============================================================================
 # une station = point + nom
@@ -62,8 +63,8 @@ def minMatrixPoint(matrix):
     mini = matrix[0][0].val
     for i in matrix:
         for j in i:
-            if mini >j.val:
-                mini =j.val
+            if mini > j.val:
+                mini = j.val
     return mini
 
 #===============================================================================
@@ -89,25 +90,85 @@ def maxMatrixPoint(matrix):
 #===============================================================================
 def shepardOneTime(stationMatrice, t, ptMin, ptMax, pas):
     matPointGenere = []
-    tabData = []
+    tabData = [] 
     # Stations vers points
     for stat in stationMatrice :
         tabData.append(stat[t].pt)
         
     i = ptMin.x
-    print tabData;
+
+    print """=====================================
+Avancement du traitement des données
+=====================================
+0.00 %"""
+    # on parcours selon le pas
     while i < ptMax.x:
         j = ptMin.y
         tabPoint = []
         while j < ptMax.y:
+            # on crée un nouveau point
             pt = Point(i, j, 0)
+            # on sheparde pour avoir sa valeur
             pt.val = shepard(pt, tabData)
+            # On sauvegarde le point
             tabPoint.append(pt)
             j = j + pas
         i = i + pas
         matPointGenere.append(tabPoint)
-    print "taille", len(matPointGenere),len(matPointGenere[0]), "from", len(stationMatrice), len(stationMatrice[0])  
+        
+        # On affiche le pourcentage d'avancement
+        if (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100) < 100:
+            print ("%.2f" % (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100)), "%"
     return matPointGenere
+
+#===============================================================================
+# Launch analyse
+#===============================================================================
+def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
+    matrixData = shepardOneTime(matStation, tSelect, ptMin, ptMax, pas)
+    mini = minMatrixPoint(matrixData)
+    maxi = maxMatrixPoint(matrixData)
+    
+    ################# On crée nos XI ####################
+    x1Part = 0.20
+    xmin = XI("rgb", 0, 0, 0, mini)
+    xmax = XI("rgb", 50, 50, 50, maxi)
+    x1 = XI("rgb", 150, 150, 150, (xmax.value - xmin.value) * (x1Part) + xmin.value)
+    x2 = XI("rgb", 200, 200, 200, (xmax.value - xmin.value) * (x1Part) + x1.value)
+    x3 = XI("rgb", 250, 250, 250, (xmax.value - xmin.value) * (x1Part) + x2.value)
+    
+    ech = []
+    ech.append(xmin)
+    ech.append(x1)
+    ech.append(x2)
+    ech.append(x3)
+    ech.append(xmax)
+    ######################################################
+    
+    matRGB = generateRgbFromPointMatrix(matrixData, ech)
+    matrixRgb2Image(matRGB, ("imagesResult/image" + str(tSelect)))
+    # Permet de créer un fichier kml 
+    createKML(("imagesResult/image" + str(tSelect)) + ".png", ptMin.x, ptMax.x, ptMin.y, ptMax.y)
+
+########### Selon les arguments ###########
+# python main.py [pas] [tselect]
+if len(sys.argv) <= 1:
+    pas = 0.1  
+    tSelect = 0 
+    print "pas=", pas, "=t", tSelect
+    
+if len(sys.argv) == 2:
+    pas = float(sys.argv[1])
+    tSelect = 0
+    print "pas=", pas, "=t", tSelect
+    
+if len(sys.argv) == 3:
+    pas = float(sys.argv[1])
+    if sys.argv[2] == "all" :
+        tSelect = -1
+    else:
+        tSelect = int(sys.argv[2])
+    print "pas=", pas, "t=", tSelect
 
 ################# Main ####################
 # On recup notre data     
@@ -119,36 +180,14 @@ matStation = makeStationsData(data)
 # on definit la zone de visualisation
 (ptMin, ptMax) = selectZoneReference(matStation)
 # On determine la valeur des points de la zone
-print 'ptMin, ptMax',ptMin, ptMax
-pas = 0.1
-matrixData = shepardOneTime(matStation, 0, ptMin, ptMax, pas)
-mini = minMatrixPoint(matrixData)
-maxi = maxMatrixPoint(matrixData)
-
-################# On crée nos XI ####################
-x1Part = 0.20
-xmin = XI("rgb", 200, 200, 200, mini)
-xmax = XI("rgb", 50, 0, 200, maxi)
-x1 = XI("rgb", 100, 50, 0, (xmax.value - xmin.value) * (x1Part) + xmin.value)
-x2 = XI("rgb", 0, 100, 20, (xmax.value - xmin.value) * (x1Part) + x1.value)
-x3 = XI("rgb", 150, 150, 150, (xmax.value - xmin.value) * (x1Part) + x2.value)
+print 'ptMin, ptMax', ptMin, ptMax
 
 
-ech = []
-ech.append(xmin)
-ech.append(x1)
-ech.append(x2)
-ech.append(x3)
-ech.append(xmax)
-######################################################
-print "matrixData",len(matrixData),len(matrixData[0])
-matRGB = generateRgbFromPointMatrix(matrixData, ech)
-print "img",len(matRGB),len(matRGB[0])
-matrixRgb2Image(matRGB, "image")
-#Permet de créer un fichier kml 
-createKML("image.png",ptMin.x,ptMax.x,ptMin.y,ptMax.y)
-
-
+if tSelect == -1 :
+    for tSelect in range (0, len(matStation)):
+        analyseOneTime(matStation, tSelect, ptMin, ptMax, pas)
+else:
+    analyseOneTime(matStation, tSelect, ptMin, ptMax, pas)
 
 
 

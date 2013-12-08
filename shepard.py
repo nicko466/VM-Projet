@@ -1,9 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+
 import math
 import exceptions
 
 muI= 2 #ou 2
 
-
+#===============================================================================
+# classe Point
+#===============================================================================
 class Point : 
   def __init__(self, x, y,val):
     self.x = float(x)
@@ -16,14 +21,23 @@ class Point :
   def __repr__(self):
     return "{x: " +str((self.x)) + " y:" + str((self.y)) + " v:" + str (int(self.val))+"}"
 
-
+#===============================================================================
+# norme d'un point
+#===============================================================================
 def norme(point):
     return math.sqrt(point.x * point.x + point.y * point.y)
 
+#===============================================================================
+# norme d'un vecteur de deux point
+#===============================================================================
 def distance (pOrig,p2):
     pf = Point( pOrig.x- p2.x, pOrig.y -p2.y,0.0)
     return norme (pf)
 
+#===============================================================================
+# créer une matrice avec la distance de chaque point par rapport
+# à celui de référence
+#===============================================================================
 def creerTabDistance (tabPoint, point):
     tabRes =[]
     for i in range (0, len(tabPoint)):
@@ -31,6 +45,7 @@ def creerTabDistance (tabPoint, point):
         if dist !=0:
             tabRes.append(dist)
     return tabRes
+
 
 def calculOmega(tabDist,i):
     numerateur= 1
@@ -46,9 +61,12 @@ def calculOmega(tabDist,i):
                 res *=pow(tabDist[j],muI)
         denominateur += res
         
-   # print "denominateur",denominateur, "numerateur",numerateur, "res:",numerateur/denominateur
     return numerateur/denominateur
 
+#===============================================================================
+# lance l'algo de shepard pour un point par rapport à un
+# tableau de valeurs de référence
+#===============================================================================
 def shepard(point, dataTab):
     tabDist = creerTabDistance(dataTab, point) 
     

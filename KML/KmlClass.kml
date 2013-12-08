@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="feat_1">
+    <Document id="feat_11">
         <name>KmlUsage</name>
-        <GroundOverlay id="feat_2">
+        <GroundOverlay id="feat_12">
             <name>GroundOverlay</name>
-            <Icon id="link_0">
-                <href>../image.png</href>
+            <Icon id="link_5">
+                <href>../imagesResult/image5.png</href>
             </Icon>
             <gx:LatLonQuad>
                 <coordinates>4.07,46.21,0.0 6.87,46.21,0.0 6.87,44.35,0.0 4.07,44.35,0.0</coordinates>
