@@ -93,7 +93,7 @@ def calculOmega(tabDist,i):
     return numerateur/denominateur
 
 
-def shepard(point,dataTab):
+def shepard(point, dataTab):
     tabDist = creerTabDistance(dataTab, point) 
     print "tabDist",tabDist
     
