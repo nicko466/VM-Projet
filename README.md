@@ -9,7 +9,7 @@ require:
 simpleklm
 
 sudo apt-get install easy_install
-sudo easy_install simpleklm
+sudo easy_install simplekml
 
 launch
 ========
