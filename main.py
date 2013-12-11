@@ -124,15 +124,29 @@ Avancement du traitement des données
 
     data = []
     for row in matPointGenere:
-		data.append(row[t])
+        for elt in row:
+		      data.append(elt)
 
-    isoValue = 9
-    signes = determinePlusLess(data, isoValue)
+    mini = minMatrixPoint(matPointGenere)
+    maxi = maxMatrixPoint(matPointGenere)
+    i = 0.00
     nbRow = len(matPointGenere)
     nbCol = len(matPointGenere[0])
-    tabSegment = marchingSquare(data, signes, isoValue, nbCol, nbRow)
-    drawPS(data, tabSegment, nbCol, int(nbRow))
-
+    tabSegment = []
+    fichier = file('resultat.ps', 'w')
+    fichier.write("%!PS\n")
+    drawGrid(fichier, nbCol, nbRow)
+    while i < 1.00:
+        isoValue = (maxi - mini) * (i) + mini
+        #signes = determinePlusLess(data, isoValue)
+        #tabSegment += (marchingSquare(data, signes, isoValue, nbCol, nbRow))
+        drawForOneIsoValue(fichier, data, nbCol, nbRow, isoValue, "0 0 1")
+        i = i + 0.05
+    #drawPS(data, tabSegment, nbCol, int(nbRow))
+    #Fermeture fichier
+    fichier.write("showpage")
+    fichier.close()
+    os.system("gs -sDEVICE=jpeg -dJPEGQ=100 -dNOPAUSE -dBATCH -dSAFER -r100x100 -sOutputFile=" +"resultat"+'.jpg '+ "resultat" +'.ps')   
     return matPointGenere
 
 #===============================================================================
