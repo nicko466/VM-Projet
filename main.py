@@ -5,6 +5,7 @@ from exportData import *
 from color import *
 from shepard import *
 from afficherKml import *
+from isoValueMap import *
 import sys
 
 #===============================================================================
@@ -119,6 +120,19 @@ Avancement du traitement des données
         # On affiche le pourcentage d'avancement
         if (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100) < 100:
             print ("%.2f" % (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100)), "%"
+
+
+    data = []
+    for row in matPointGenere:
+		data.append(row[t])
+
+    isoValue = 9
+    signes = determinePlusLess(data, isoValue)
+    nbRow = len(matPointGenere)
+    nbCol = len(matPointGenere[0])
+    tabSegment = marchingSquare(data, signes, isoValue, nbCol, nbRow)
+    drawPS(data, tabSegment, nbCol, int(nbRow))
+
     return matPointGenere
 
 #===============================================================================
