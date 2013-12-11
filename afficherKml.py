@@ -16,7 +16,6 @@ from simplekml import Kml
 
 def createKML(pathImage,x0,x1,y0,y1):
     pathToKML = "KML/"
-    
     fichier = open(pathToKML+"/timeStampPollution.kml", "w")
     fichier.write('<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">')
     fichier.write('\n')

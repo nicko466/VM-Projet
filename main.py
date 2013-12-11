@@ -5,6 +5,7 @@ from exportData import *
 from color import *
 from shepard import *
 from afficherKml import *
+from isoValueMap import *
 import sys
 
 #===============================================================================
@@ -119,6 +120,19 @@ Avancement du traitement des données
         # On affiche le pourcentage d'avancement
         if (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100) < 100:
             print ("%.2f" % (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100)), "%"
+
+
+    data = []
+    for row in matPointGenere:
+		data.append(row[t])
+
+    isoValue = 9
+    signes = determinePlusLess(data, isoValue)
+    nbRow = len(matPointGenere)
+    nbCol = len(matPointGenere[0])
+    tabSegment = marchingSquare(data, signes, isoValue, nbCol, nbRow)
+    drawPS(data, tabSegment, nbCol, int(nbRow))
+
     return matPointGenere
 
 #===============================================================================
@@ -130,20 +144,18 @@ def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     maxi = maxMatrixPoint(matrixData)
     
     ################# On crée nos XI ####################
-    x1Part = 0.01
-    xmin = XI("rgb", 81, 87, 110, mini)
-    xmax = XI("rgb", 255, 0, 0, maxi)
-    x1 = XI("rgb", 14, 14, 241, (xmax.value - xmin.value) * (x1Part) + xmin.value)
-    x2 = XI("rgb", 0, 249, 255, (xmax.value - xmin.value) * (x1Part) + x1.value)
-    x3 = XI("rgb", 0, 255, 0, (xmax.value - xmin.value) * (x1Part) + x1.value)
-    x4 = XI("rgb", 255, 232, 0, (xmax.value - xmin.value) * (x1Part) + x2.value)
-    
+
+    xmin = XI("rgb", 0, 0, 255, mini)
+    xmax = XI("rgb", 200, 0, 0, maxi)
+    x1 = XI("rgb", 63, 0, 175, (xmax.value - xmin.value) * (0.001) + xmin.value)
+    x2 = XI("rgb", 125, 0, 125, (xmax.value - xmin.value) * (0.005) + xmin.value)
+    x3 = XI("rgb", 195, 0, 63, (xmax.value - xmin.value) * (0.25) + xmin.value)
+
     ech = []
     ech.append(xmin)
     ech.append(x1)
     ech.append(x2)
     ech.append(x3)
-    ech.append(x4)
     ech.append(xmax)
     ######################################################
     
