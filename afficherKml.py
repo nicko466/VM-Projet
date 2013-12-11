@@ -26,4 +26,4 @@ def createKML(pathImage,x0,x1,y0,y1):
     
     kml.save(pathToKML+"KmlClass.kml")  # Saving
     kml.savekmz(pathToKML+"KmlClass.kmz", format=False)  # Saving as KMZ
-    print kml.kml()  # Printing out the kml to screen
+    #print kml.kml()  # Printing out the kml to screen

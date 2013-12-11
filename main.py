@@ -130,12 +130,11 @@ def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     maxi = maxMatrixPoint(matrixData)
     
     ################# On crée nos XI ####################
-    x1Part = 0.20
-    xmin = XI("rgb", 0, 0, 0, mini)
-    xmax = XI("rgb", 50, 50, 50, maxi)
-    x1 = XI("rgb", 150, 150, 150, (xmax.value - xmin.value) * (x1Part) + xmin.value)
-    x2 = XI("rgb", 200, 200, 200, (xmax.value - xmin.value) * (x1Part) + x1.value)
-    x3 = XI("rgb", 250, 250, 250, (xmax.value - xmin.value) * (x1Part) + x2.value)
+    xmin = XI("rgb", 0, 0, 255, mini)
+    xmax = XI("rgb", 200, 0, 0, maxi)
+    x1 = XI("rgb", 63, 0, 175, (xmax.value - xmin.value) * (0.001) + xmin.value)
+    x2 = XI("rgb", 125, 0, 125, (xmax.value - xmin.value) * (0.005) + xmin.value)
+    x3 = XI("rgb", 195, 0, 63, (xmax.value - xmin.value) * (0.25) + xmin.value)
     
     ech = []
     ech.append(xmin)

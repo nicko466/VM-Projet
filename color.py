@@ -84,7 +84,7 @@ def generateRgbFromPointMatrix(mat, echelle):
 				si = 55
 				vi = 55
 			(ri, gi, bi) = colorsys.hsv_to_rgb(hi, si, vi)
-			#print ri, gi, bi, hi, si, vi
+			print ri, gi, bi, hi, si, vi
 			itabRGB.append((ri, gi, bi))
 		matRGB.append(itabRGB)
 	return matRGB
@@ -122,7 +122,7 @@ def matrixRgb2Image(m, nameFile):
 	pix = im.load()
 	for i in range(size[0]):
 	    for j in range(size[1]):
-		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][0])) 
+		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][2])) 
 	im.save(nameFile + ".png")
 	print nameFile + ".png" + " created !"
 
