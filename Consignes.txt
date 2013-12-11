@@ -9,3 +9,5 @@ Les interpoler avec Shepard.
 
 java -> javac pour le KML
 python -> simpleKML
+
+Pour un temps t, on fait la carte de couleur (shepard), ensuite on calcule des courbes isovaleurs, qu'on aura défini à l'avance.
