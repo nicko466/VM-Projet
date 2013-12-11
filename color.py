@@ -122,7 +122,7 @@ def matrixRgb2Image(m, nameFile):
 	pix = im.load()
 	for i in range(size[0]):
 	    for j in range(size[1]):
-		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][0])) 
+		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][2])) 
 	im.save(nameFile + ".png")
 	print nameFile + ".png" + " created !"
 
