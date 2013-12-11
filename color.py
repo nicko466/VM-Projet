@@ -5,6 +5,8 @@ import math
 import Image
 import random
 
+opacity = 95
+
 # Object point
 class XI:
 	def __init__(self, typeColor, a, b, c, value):
@@ -118,11 +120,11 @@ def generateRGB(mat, echelle):
 # @param nameFile : le path sans extension du fichier de sortie
 def matrixRgb2Image(m, nameFile):
 	size = (len(m), len(m[0]))
-	im = Image.new('RGB', size)
+	im = Image.new('RGBA', size)
 	pix = im.load()
 	for i in range(size[0]):
 	    for j in range(size[1]):
-		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][2])) 
+		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][2]),opacity) 
 	im.save(nameFile + ".png")
 	print nameFile + ".png" + " created !"
 
