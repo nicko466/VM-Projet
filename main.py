@@ -158,12 +158,13 @@ def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     maxi = maxMatrixPoint(matrixData)
     
     ################# On crée nos XI ####################
+
     xmin = XI("rgb", 0, 0, 255, mini)
     xmax = XI("rgb", 200, 0, 0, maxi)
     x1 = XI("rgb", 63, 0, 175, (xmax.value - xmin.value) * (0.001) + xmin.value)
     x2 = XI("rgb", 125, 0, 125, (xmax.value - xmin.value) * (0.005) + xmin.value)
     x3 = XI("rgb", 195, 0, 63, (xmax.value - xmin.value) * (0.25) + xmin.value)
-    
+
     ech = []
     ech.append(xmin)
     ech.append(x1)
@@ -175,7 +176,7 @@ def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     matRGB = generateRgbFromPointMatrix(matrixData, ech)
     matrixRgb2Image(matRGB, ("imagesResult/image" + str(tSelect)))
     # Permet de créer un fichier kml 
-    createKML(("imagesResult/image" + str(tSelect)) + ".png", ptMin.x, ptMax.x, ptMin.y, ptMax.y)
+    createKML(("imagesResult/" + str(tSelect)) + ".png", ptMin.x, ptMax.x, ptMin.y, ptMax.y)
 
 ########### Selon les arguments ###########
 # python main.py [pas] [tselect]
