@@ -129,8 +129,8 @@ def generateIsoValue(matPointGenere,ptMin):
     print matPointGenere[0][0]
     for row in matPointGenere:
         for pt in row:
-              newPt = Point(pt.x + ptMin.x,pt.y + ptMin.y, pt.val)
-              data.append(newPt)
+              #newPt = Point(pt.x + ptMin.x,pt.y + ptMin.y, pt.val)
+              data.append(pt)
 
     mini = minMatrixPoint(matPointGenere)
     maxi = maxMatrixPoint(matPointGenere)
