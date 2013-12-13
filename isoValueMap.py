@@ -11,7 +11,7 @@ class Segment:
     def __repr__(self):
         return "{(" + str((self.x1)) + ", " + str((self.y1))+ ")(" + str((self.x2)) + ", " + str((self.y2)) + ")}"
     
-
+# determine les signes
 def determinePlusLess(tabPoint, valToCompare):
     tabSigne = []
     for i in range(0,len(tabPoint)):

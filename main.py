@@ -123,25 +123,30 @@ Avancement du traitement des données
   
     return matPointGenere
 
-def generateIsoValue(matPointGenere):
+# genere les courbes isovaleurs
+def generateIsoValue(matPointGenere,ptMin):
     data = []
+    print matPointGenere[0][0]
     for row in matPointGenere:
-        for elt in row:
-              data.append(elt)
+        for pt in row:
+              newPt = Point(pt.x + ptMin.x,pt.y + ptMin.y, pt.val)
+              data.append(newPt)
 
     mini = minMatrixPoint(matPointGenere)
     maxi = maxMatrixPoint(matPointGenere)
-    print "mini, maxi",mini, maxi
     i = 0.00
     nbRow = len(matPointGenere)
     nbCol = len(matPointGenere[0])
     tabSegment = []
 
-    while i < 1.00:
+    #while i < 1.00:
+    i = 0.5
+    if 1:
         isoValue = (maxi - mini) * (i) + mini
         signes = determinePlusLess(data, isoValue)
         tabSegment += (marchingSquare(data, signes, isoValue, nbCol, nbRow))
         i = i + 0.05
+        print tabSegment
     return tabSegment
 
     
@@ -150,7 +155,7 @@ def generateIsoValue(matPointGenere):
 #===============================================================================
 def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     matrixData = shepardOneTime(matStation, tSelect, ptMin, ptMax, pas)
-    curveIsovalue = generateIsoValue(matrixData)
+    curveIsovalue = generateIsoValue(matrixData,ptMin)
     #print curveIsovalue
     mini = minMatrixPoint(matrixData)
     maxi = maxMatrixPoint(matrixData)
