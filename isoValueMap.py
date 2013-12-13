@@ -109,7 +109,7 @@ def drawPS(fichier, tabSegment, nbCol, nbRow, color):
     fichier.write("0 0 moveto\n")
     fichier.write(color + " setrgbcolor\n")
     large = 500/(max(nbCol,nbRow))
-    print tabSegment,"len(tabSegment)",len(tabSegment)
+ #  print tabSegment,"len(tabSegment)",len(tabSegment)
 
     for segId in range(0,len(tabSegment)):
         seg = tabSegment[segId]
@@ -124,7 +124,7 @@ def drawPS(fichier, tabSegment, nbCol, nbRow, color):
         
         
 def drawGrid(fichier, nbCol,nbRow):
-    print  nbCol,nbRow
+#    print  nbCol,nbRow
     large = 500/(max(nbCol,nbRow))
     fichier.write("0 0 0 setrgbcolor\n")
     fichier.write("0 0 moveto\n")
