@@ -11,23 +11,6 @@ class Segment:
     def __repr__(self):
         return "{(" + str((self.x1)) + ", " + str((self.y1))+ ")(" + str((self.x2)) + ", " + str((self.y2)) + ")}"
     
-def lectureData(fich):
-    fichier = open(fich, 'r') 
-    tabPoint = []
-    nbCol = 0
-    nbRow = 0
-    while True :
-        line = fichier.readline()
-        if line == '' :
-          break
-        (x, y, val) = line.split(" ")
-        val =(val.split("\n"))[0]
-        tabPoint.append( Point(x,y, val))
-        if (nbCol < y):
-            nbCol = int(y)
-        if (nbRow < x):
-            nbRow = int(x)
-    return (tabPoint, nbCol, nbRow)
 
 def determinePlusLess(tabPoint, valToCompare):
     tabSigne = []
@@ -45,9 +28,7 @@ def marchingSquare(tabPoint, tabSigne, isoVal, nbCol, nbRow):
     mod = 0
     incMod = False 
     for i in range(0,len(tabPoint) - (nbCol+2)):
-#        print (i%nbCol)
         if ((i >= nbCol) & (i % nbCol == mod)):
-#            print mod, "i", i
             incMod = True
             continue
         elif (incMod):
@@ -93,61 +74,5 @@ def determinePointArete(pt1, pt2, a):
     Xx = ((v-a)/(v-u))*pt1.x + ((a-u)/(v-u))*pt2.x
     Xy = ((v-a)/(v-u))*pt1.y + ((a-u)/(v-u))*pt2.y
     return Point(Xx,Xy,a)
-
-def drawForOneIsoValue(imgFile, data, nbCol, nbRow, isoValue, color):
-    signes = determinePlusLess(data, isoValue)
-    tabSegment = marchingSquare(data, signes, isoValue, nbCol, nbRow)
-    drawPS(imgFile, tabSegment, nbCol, nbRow, color)
-    
-    
-def drawPS(fichier, tabSegment, nbCol, nbRow, color):
-#    fichier = file('resultat.ps', 'w')
-#    fichier.write("%!PS\n")
-#    coefMult = 10
-#    drawGrid(fichier, tabPoint, nbCol, nbRow,coefMult)
-
-    fichier.write("0 0 moveto\n")
-    fichier.write(color + " setrgbcolor\n")
-    large = 500/(max(nbCol,nbRow))
- #  print tabSegment,"len(tabSegment)",len(tabSegment)
-
-    for segId in range(0,len(tabSegment)):
-        seg = tabSegment[segId]
-        fichier.write(str(int(large*seg.x1)) + " " + str(int(large*seg.y1)) + " moveto\n")
-        fichier.write(str(int(large*seg.x2)) + " " + str(int(large*seg.y2)) + " lineto\n")
-
-    fichier.write("stroke\n")
-#    fichier.write("stroke\nshowpage")
-#    fichier.close()
-#    os.system("gs -sDEVICE=jpeg -dJPEGQ=100 -dNOPAUSE -dBATCH -dSAFER -r100x100 -sOutputFile=" +"resultat"+'.jpg '+ "resultat" +'.ps')       
-    return
-        
-        
-def drawGrid(fichier, nbCol,nbRow):
-#    print  nbCol,nbRow
-    large = 500/(max(nbCol,nbRow))
-    fichier.write("0 0 0 setrgbcolor\n")
-    fichier.write("0 0 moveto\n")
-    for i in range(0,nbRow+1):
-        fichier.write("0" + " " + str(large*i) + " moveto\n")
-        fichier.write(str(large*nbRow) + " " + str(large*i) + " lineto\n")
-
-    fichier.write("0 0 moveto\n")
-    for i in range(0,nbCol+1):
-        fichier.write( str(large*i) +" "+"0" + " moveto\n")
-        fichier.write( str(large*i) + " " + str(large*nbCol) + " lineto\n")
-
-    fichier.write("stroke\n")
-    return
-    
-    
-# if __name__ == "__main__":
-#     (data, nbCol, nbRow) = lectureData("data.txt")
-#     isoValue = 1.5
-#     signes = determinePlusLess(data, isoValue)
-#     tabSegment = marchingSquare(data, signes, isoValue, nbCol, nbRow)
-#     drawPS(data, tabSegment, nbCol, int(nbRow))
-#     print "Done !", "nbRow",nbRow,"nbCol",nbCol
-
 
 
