@@ -120,12 +120,14 @@ Avancement du traitement des données
         # On affiche le pourcentage d'avancement
         if (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100) < 100:
             print ("%.2f" % (((i - ptMin.x) / (ptMax.x - ptMin.x)) * 100)), "%"
+  
+    return matPointGenere
 
-
+def generateIsoValue(matPointGenere):
     data = []
     for row in matPointGenere:
         for elt in row:
-		      data.append(elt)
+              data.append(elt)
 
     mini = minMatrixPoint(matPointGenere)
     maxi = maxMatrixPoint(matPointGenere)
@@ -133,27 +135,22 @@ Avancement du traitement des données
     nbRow = len(matPointGenere)
     nbCol = len(matPointGenere[0])
     tabSegment = []
-    fichier = file('resultat.ps', 'w')
-    fichier.write("%!PS\n")
-    drawGrid(fichier, nbCol, nbRow)
+
     while i < 1.00:
         isoValue = (maxi - mini) * (i) + mini
-        #signes = determinePlusLess(data, isoValue)
-        #tabSegment += (marchingSquare(data, signes, isoValue, nbCol, nbRow))
-        drawForOneIsoValue(fichier, data, nbCol, nbRow, isoValue, "0 0 1")
+        signes = determinePlusLess(data, isoValue)
+        tabSegment += (marchingSquare(data, signes, isoValue, nbCol, nbRow))
         i = i + 0.05
-    #drawPS(data, tabSegment, nbCol, int(nbRow))
-    #Fermeture fichier
-    fichier.write("showpage")
-    fichier.close()
-    os.system("gs -sDEVICE=jpeg -dJPEGQ=100 -dNOPAUSE -dBATCH -dSAFER -r100x100 -sOutputFile=" +"resultat"+'.jpg '+ "resultat" +'.ps')   
-    return matPointGenere
+    return tabSegment
 
+    
 #===============================================================================
 # Launch analyse
 #===============================================================================
 def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     matrixData = shepardOneTime(matStation, tSelect, ptMin, ptMax, pas)
+    curveIsovalue = generateIsoValue(matrixData)
+    #print curveIsovalue
     mini = minMatrixPoint(matrixData)
     maxi = maxMatrixPoint(matrixData)
     
@@ -176,7 +173,7 @@ def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     matRGB = generateRgbFromPointMatrix(matrixData, ech)
     matrixRgb2Image(matRGB, ("imagesResult/image" + str(tSelect)))
     # Permet de créer un fichier kml 
-    createKML(("imagesResult/" + str(tSelect)) + ".png", ptMin.x, ptMax.x, ptMin.y, ptMax.y)
+    createKML(("imagesResult/" + str(tSelect)) + ".png", ptMin.x, ptMax.x, ptMin.y, ptMax.y,curveIsovalue )
 
 ########### Selon les arguments ###########
 # python main.py [pas] [tselect]
