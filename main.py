@@ -131,6 +131,7 @@ def generateIsoValue(matPointGenere):
 
     mini = minMatrixPoint(matPointGenere)
     maxi = maxMatrixPoint(matPointGenere)
+    print "mini, maxi",mini, maxi
     i = 0.00
     nbRow = len(matPointGenere)
     nbCol = len(matPointGenere[0])
