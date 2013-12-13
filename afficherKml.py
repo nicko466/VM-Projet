@@ -14,7 +14,7 @@ from simplekml import Kml
 #
 #===============================================================================
 
-def createKML(pathImage, x0, x1, y0, y1, isovalue):
+def createKML(x0, x1, y0, y1, tabIsovalue):
     pathToKML = "KML/"
     fichier = open(pathToKML + "/timeStampPollution.kml", "w")
     
@@ -40,10 +40,11 @@ def createKML(pathImage, x0, x1, y0, y1, isovalue):
             </gx:LatLonQuad>
         </GroundOverlay>"""
         monkml += "\n"
-    for segment in isovalue:
-        monkml += "<Placemark><LineString><coordinates>"
-        monkml += str(segment.x1) + "," + str(segment.y1) + ",0 " + str(segment.x2) + "," + str(segment.y2) + ",0\n"
-        monkml += " </coordinates></LineString></Placemark>"
+    for isovalue in tabIsovalue: # On parcours le tableau pour chaque t
+        for segment in isovalue: # Pour chaque segment
+            monkml += "<Placemark><LineString><coordinates>"
+            monkml += str(segment.x1) + "," + str(segment.y1) + ",0 " + str(segment.x2) + "," + str(segment.y2) + ",0\n"
+            monkml += " </coordinates></LineString></Placemark>"
     monkml += '\n</Folder></kml>'
     fichier.write(monkml)
     
