@@ -30,10 +30,10 @@ def createKML(pathImage,x0,x1,y0,y1, isovalue):
         <GroundOverlay id="feat_2">
             <name>GroundOverlay</name>
             <Icon id="link_0">
-                <href>../imagesResult/image'+str(i)+'.png</href>
+                <href>../imagesResult/image"""+str(i)+""".png</href>
             </Icon>
             <TimeStamp>'+
-                <when>2005-02-21T08:'+str(i)+':10Z</when>
+                <when>2005-02-21T08:"""+str(i)+""":10Z</when>
             </TimeStamp>
             <gx:LatLonQuad>
                 <coordinates>4.07,46.21,0.0 6.87,46.21,0.0 6.87,44.35,0.0 4.07,44.35,0.0</coordinates>
