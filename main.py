@@ -139,13 +139,11 @@ def generateIsoValue(matPointGenere,ptMin):
     nbCol = len(matPointGenere[0])
     tabSegment = []
 
-    #while i < 1.00:
-    i = 0.5
-    if 1:
+    while i < 1.00:
         isoValue = (maxi - mini) * (i) + mini
         signes = determinePlusLess(data, isoValue)
         tabSegment += (marchingSquare(data, signes, isoValue, nbCol, nbRow))
-        i = i + 0.05
+        i = i + 0.10
         print tabSegment
     return tabSegment
 
