@@ -27,44 +27,40 @@ def marchingSquare(tabPoint, tabSigne, isoVal, nbCol, nbRow):
     tabSegments = []
     mod = 0
     incMod = False 
+    print "longueur points", (tabPoint)
     for i in range(0,len(tabPoint) - (nbCol+2)):
-        if ((i >= nbCol) & (i % nbCol == mod)):
-            incMod = True
-            continue
-        elif (incMod):
-            mod = mod + 1
-            incMod = False
+        if (i % nbCol != nbCol-1):
        
-        indexp1 = i
-        indexp2 = i+1
-        indexp3 = i+nbCol+1
-        indexp4 = i+nbCol+2
-        
-        p1 = tabPoint[indexp1]          # p1---p2
-        p2 = tabPoint[indexp2]          #  |   |
-        p3 = tabPoint[indexp3]          # p3---p4
-        p4 = tabPoint[indexp4]
+            indexp1 = i
+            indexp2 = i+1
+            indexp3 = i+nbCol
+            indexp4 = i+nbCol+1
 
-        pointAretes = []
-        if (tabSigne[indexp1] + tabSigne[indexp2] == 0):
-            pointAretes.append(determinePointArete(p1,p2,isoVal))
-        if (tabSigne[indexp2] + tabSigne[indexp4] == 0):
-            pointAretes.append(determinePointArete(p2,p4,isoVal))
-        if (tabSigne[indexp4] + tabSigne[indexp3] == 0):
-            pointAretes.append(determinePointArete(p4,p3,isoVal))
-        if (tabSigne[indexp3] + tabSigne[indexp1] == 0):
-            pointAretes.append(determinePointArete(p3,p1,isoVal))         
-            
-        if (len(pointAretes) == 2):
-            tabSegments.append(Segment(pointAretes[0].x, pointAretes[0].y, pointAretes[1].x, pointAretes[1].y))
-        elif (len(pointAretes) == 4):
-            moyenne = (p1.val + p2.val + p3.val + p4.val) / 4.0
-            if (moyenne >= isoVal):
-              tabSegments.append(Segment(pointAretes[0].x, pointAretes[0].y, pointAretes[3].x, pointAretes[3].y))
-              tabSegments.append(Segment(pointAretes[1].x, pointAretes[1].y, pointAretes[2].x, pointAretes[2].y))
-            else:
-              tabSegments.append(Segment(pointAretes[0].x, pointAretes[0].y, pointAretes[1].x, pointAretes[1].y))
-              tabSegments.append(Segment(pointAretes[2].x, pointAretes[2].y, pointAretes[3].x, pointAretes[3].y))  
+            p1 = tabPoint[indexp1]          # p1---p2
+            p2 = tabPoint[indexp2]          #  |   |
+            p3 = tabPoint[indexp3]          # p3---p4
+            p4 = tabPoint[indexp4]
+
+            pointAretes = []
+            if (tabSigne[indexp1] + tabSigne[indexp2] == 0):
+                pointAretes.append(determinePointArete(p1,p2,isoVal))
+            if (tabSigne[indexp2] + tabSigne[indexp4] == 0):
+                pointAretes.append(determinePointArete(p2,p4,isoVal))
+            if (tabSigne[indexp4] + tabSigne[indexp3] == 0):
+                pointAretes.append(determinePointArete(p4,p3,isoVal))
+            if (tabSigne[indexp3] + tabSigne[indexp1] == 0):
+                pointAretes.append(determinePointArete(p3,p1,isoVal))         
+
+            if (len(pointAretes) == 2):
+                tabSegments.append(Segment(pointAretes[0].x, pointAretes[0].y, pointAretes[1].x, pointAretes[1].y))
+            elif (len(pointAretes) == 4):
+                moyenne = (p1.val + p2.val + p3.val + p4.val) / 4.0
+                if (moyenne >= isoVal):
+                  tabSegments.append(Segment(pointAretes[0].x, pointAretes[0].y, pointAretes[3].x, pointAretes[3].y))
+                  tabSegments.append(Segment(pointAretes[1].x, pointAretes[1].y, pointAretes[2].x, pointAretes[2].y))
+                else:
+                  tabSegments.append(Segment(pointAretes[0].x, pointAretes[0].y, pointAretes[1].x, pointAretes[1].y))
+                  tabSegments.append(Segment(pointAretes[2].x, pointAretes[2].y, pointAretes[3].x, pointAretes[3].y))               
     return tabSegments
 
 def determinePointArete(pt1, pt2, a):
