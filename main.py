@@ -128,7 +128,6 @@ def generateIsoValue(matPointGenere,ptMin):
     data = []
     for row in matPointGenere:
         for pt in row:
-              #newPt = Point(pt.x + ptMin.x,pt.y + ptMin.y, pt.val)
               data.append(pt)
 
     mini = minMatrixPoint(matPointGenere)
@@ -143,7 +142,6 @@ def generateIsoValue(matPointGenere,ptMin):
         signes = determinePlusLess(data, isoValue)
         tabSegment += (marchingSquare(data, signes, isoValue, nbCol, nbRow))
         i = i + 0.10
-        print tabSegment
     return tabSegment
 
     
@@ -175,8 +173,7 @@ def analyseOneTime(matStation, tSelect, ptMin, ptMax, pas):
     
     matRGB = generateRgbFromPointMatrix(matrixData, ech)
     matrixRgb2Image(matRGB, ("imagesResult/image" + str(tSelect)))
-    # Permet de créer un fichier kml 
-    createKML(("imagesResult/" + str(tSelect)) + ".png", ptMin.x, ptMax.x, ptMin.y, ptMax.y,curveIsovalue )
+    return curveIsovalue
 
 ########### Selon les arguments ###########
 # python main.py [pas] [tselect]
@@ -212,10 +209,15 @@ print 'ptMin, ptMax', ptMin, ptMax
 
 
 if tSelect == -1 :
-    for tSelect in range (0, len(matStation[0])):
-        analyseOneTime(matStation, tSelect, ptMin, ptMax, pas)
+    isovalue = []
+    for tSelect in range (0, 9):
+    #for tSelect in range (0, len(matStation[0])):
+        isovalue.append(analyseOneTime(matStation, tSelect, ptMin, ptMax, pas))
+        # Permet de créer un fichier kml 
+    createKML(ptMin.x, ptMax.x, ptMin.y, ptMax.y, isovalue)
 else:
     analyseOneTime(matStation, tSelect, ptMin, ptMax, pas)
+    createKML(ptMin.x, ptMax.x, ptMin.y, ptMax.y, isovalue)
 
 
 
