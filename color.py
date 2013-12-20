@@ -127,6 +127,7 @@ def matrixRgb2Image(m, nameFile):
 	    for j in range(size[1]):
 		localOpacity = min((255-int(m[i][j][2]))*3,255)
 		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][2]),localOpacity)
+	im = im.transpose(Image.FLIP_TOP_BOTTOM)
 	im.save(nameFile + ".png")
 	print nameFile + ".png" + " created !"
 

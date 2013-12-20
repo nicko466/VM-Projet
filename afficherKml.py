@@ -15,6 +15,7 @@ from simplekml import Kml
 #===============================================================================
 
 def createKML(x0, x1, y0, y1, tabIsovalue):
+    print "value :",x0,x1,y0,y1
     pathToKML = "KML/"
     print " x0 :",x0," x1 :",y0," y1 :",y1
     fichier = open(pathToKML + "/timeStampPollution.kml", "w")
@@ -22,7 +23,6 @@ def createKML(x0, x1, y0, y1, tabIsovalue):
     nextMonth = "08"
     day = "01"
     nextDay = "02"
-
     monkml ="""<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     \n<Folder>
     <name>Views with Time</name>

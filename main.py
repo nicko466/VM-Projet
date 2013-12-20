@@ -212,7 +212,7 @@ print 'ptMin, ptMax', ptMin, ptMax
 
 if tSelect == -1 :
     isovalue = []
-    for tSelect in range (0, 9):
+    for tSelect in range (0, 8):
     #for tSelect in range (0, len(matStation[0])):
         isovalue.append(analyseOneTime(matStation, tSelect, ptMin, ptMax, pas))
         # Permet de créer un fichier kml 
