@@ -16,6 +16,7 @@ from simplekml import Kml
 
 def createKML(x0, x1, y0, y1, tabIsovalue):
     pathToKML = "KML/"
+    print " x0 :",x0," x1 :",y0," y1 :",y1
     fichier = open(pathToKML + "/timeStampPollution.kml", "w")
     month = "08"
     nextMonth = "08"
@@ -45,18 +46,22 @@ def createKML(x0, x1, y0, y1, tabIsovalue):
             <Icon>
                 <href>../imagesResult/image"""+str(i)+""".png</href>
             </Icon>
-              <LatLonBox>
+            <LatLonBox>
         <north>"""+str(y1)+"""</north>
         <south>"""+str(y0)+"""</south>
         <east>"""+str(x1)+"""</east>
         <west>"""+str(x0)+"""</west>
         <rotation>0.0</rotation>
-      </LatLonBox>"""
+      </LatLonBox>""" 
             
             
-            #<gx:LatLonQuad>
-            #    <coordinates>4.07,46.21,0.0 6.87,46.21,0.0 6.87,44.35,0.0 4.07,44.35,0.0</coordinates>
-            #</gx:LatLonQuad>"""
+           # <gx:LatLonQuad>
+           #     <coordinates>4.07,46.21,0.0 6.87,46.21,0.0 6.87,44.35,0.0 4.07,44.35,0.0</coordinates>
+           # </gx:LatLonQuad>"""
+             
+            
+            
+            
         
        
         monkml += "</GroundOverlay>\n" 

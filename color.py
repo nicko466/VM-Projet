@@ -114,6 +114,8 @@ def generateRGB(mat, echelle):
 		tabRGB.append(itabRGB)
 	return tabRGB
 
+
+
 # matrice RGB vers une image de nom namefile.png
 # @param m : la matrice
 # @param nameFile : le path sans extension du fichier de sortie
@@ -124,7 +126,7 @@ def matrixRgb2Image(m, nameFile):
 	for i in range(size[0]):
 	    for j in range(size[1]):
 		localOpacity = min((255-int(m[i][j][2]))*3,255)
-		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][2]),localOpacity) 
+		pix[i, j] = (int(m[i][j][0]), int(m[i][j][1]), int(m[i][j][2]),localOpacity)
 	im.save(nameFile + ".png")
 	print nameFile + ".png" + " created !"
 

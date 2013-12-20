@@ -195,6 +195,8 @@ if len(sys.argv) == 3:
         tSelect = int(sys.argv[2])
     print "pas=", pas, "t=", tSelect
 
+    
+
 ################# Main ####################
 # On recup notre data     
 print "Récupération des données..."
